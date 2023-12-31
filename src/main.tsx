@@ -7,11 +7,13 @@ import HomePage from './Pages/HomePage.tsx';
 import CoinPage from './Pages/CoinPage.tsx';
 import AboutPage from './Pages/AboutPage.tsx';
 import DetailedCoinsPage from './Pages/DetailedCoinsPage.tsx';
+import ErrorPage from './Pages/ErrorPage.tsx';
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <RootLayout />,
+        errorElement:<ErrorPage/>,
         children :[
           {
               path:'/',   
