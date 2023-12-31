@@ -40,7 +40,7 @@ const Table = () => {
             <DebouncedInput
                 value={globalFilter ?? ''}
                 onChange={(value: number | string) => setGlobalFilter(String(value))}
-                className='p-2  bg-transparent outline-none border-b-2 w-1/5 focus:w-1/3 duration-300 border-[#01E4D9]'
+                className='p-2  bg-transparent outline-none border-b-2 w-1/5 focus:w-1/3 duration-300 border-[#01E4D9] text-white font-semibold'
                 placeholder='Search     Coins...'
             />
             <TableShell columns={Columns} data={data} globalFilter={globalFilter} />
