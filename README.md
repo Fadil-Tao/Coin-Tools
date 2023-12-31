@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# COIN - TOOLS 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Webapp To Display Realtime Crypto Currencies prices
 
-Currently, two official plugins are available:
+This is a minimal implementation of serving data from api through ui interface 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Used
+<p align="center">React and Tailwind</p>
 
-## Expanding the ESLint configuration
+## Features 
+- Cool Table
+- Dynamic Detailed page 
+- Lazy Loading 
+- Cool Loading animation :#3
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ScreenShoot
 
-- Configure the top-level `parserOptions` property like this:
+|                         |                               |
+:-------------------------:|:-------------------------:
+![Alt text](Screenshot/homePage.png) | ![Alt text](Screenshot/coinPage.png)
+![Alt text](Screenshot/DetailedPage.png) | ![Alt text](Screenshot/TopRanked.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Live Preview 
+https://dash-pal.vercel.app/
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Additional update in the future
+- cleaning some code
+- write some comments
+- add dark/light mode 
+
+## Feedback
+any feedback, comments , criticism even judges are welcome, send it to here mothra09876@gmail.com
