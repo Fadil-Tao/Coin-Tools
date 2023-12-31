@@ -21,7 +21,7 @@ This is a minimal implementation of serving data from api through ui interface
 ![Alt text](Screenshot/DetailedPage.png) | ![Alt text](Screenshot/TopRanked.png)
 
 ## Live Preview 
-https://dash-pal.vercel.app/
+https://coin-tools.vercel.app/home
 
 ## Additional update in the future
 - cleaning some code
